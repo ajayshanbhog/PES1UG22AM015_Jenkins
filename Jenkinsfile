@@ -10,8 +10,7 @@ pipeline {
         
         stage('Test') {
             steps {
-                // Error in this stage
-                sh './output_invalid'
+                sh './output'
             }
         }
         
